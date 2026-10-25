@@ -208,4 +208,13 @@
 		
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>nexus-repo</id>
+            <name>myrepo</name>
+            <url>http://3.87.153.244:8081/repository/myrepo/</url>
+        </repository>
+    </distributionManagement>
+
 </project>
